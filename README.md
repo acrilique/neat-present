@@ -5,15 +5,20 @@ Welcome to **Neat**, an image presentation tool.
 
 ## Purpose
 Take an image and make a presentation out of it. Useful for diagrams, flowcharts, etc. 
-The output file format of the app is just a json with the image base64 encoded and the coordinates of the points for the presentation.
+The output file format of the app (.neatp) is just a json with the image base64 encoded and the coordinates of the points for the presentation.
 
 ## Installation
 Create a virtual environment, activate it and run:
 ```bash
-pip install neat
+pip install neat-present
 neat
 ```
-Then it will create a desktop entry in ~/.local/share/applications/. 
+
+## Uninstallation
+Activate your virtual environment and run:
+```bash
+pip uninstall neat-present
+```
 
 ## License
 This project is licensed under the MIT License.

@@ -1,2 +1,0 @@
-[console_scripts]
-neat = neat:main
