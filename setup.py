@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="neat-present",
-    version="0.1.0",
+    version="0.1.1",
     author="Lluc Simo",
     author_email="lluc.simo@protonmail.com",
     description="An image presentation tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/neat-present",
+    url="https://github.com/acrilique/neat-present",
     packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
